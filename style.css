@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+
+li img {
+   
+    height: 44px;
+    padding: 0 12px;
+}
+
+ul .brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 8px;
+
+}
+.bottom {
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+#progess-bar {
+    width: 80vw;
+    cursor: pointer;
+}
+.container {
+    height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    display: flex;
+    margin: 25px auto;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+}
+.songItem {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 12px 8px 12px 8px; 
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+
+
+}
+.songItem img {
+    width: 40px;
+    border-radius: 50%;
+}
+.song-list{
+    width: 20%;
+}
+.play-btn{
+    cursor: pointer;
+}
+.spotify-info{
+    position: absolute;
+    left: 10vw;
+}
+.spotify-info img {
+    opacity: 0;
+}
