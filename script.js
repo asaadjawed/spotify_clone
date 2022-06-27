@@ -9,13 +9,13 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let masterSongName = document.getElementById('masterSongName');
 
 let songs = [
-    {songName: 'Salam-e-Ishq', filePath:"songs/1.mp3", coverPath:"images/1.jpg"},
-    {songName: 'Tu Jaane na', filePath:"songs/2.mp3", coverPath:"images/2.jpg"},
-    {songName: 'Rafta Rafta', filePath:"songs/3.mp3", coverPath:"images/3.jpg"},
-    {songName: 'Dil Lagi', filePath:"songs/4.mp3", coverPath:"images/4.jpg"},
-    {songName: 'Barish', filePath:"songs/5.mp3", coverPath:"images/5.jpg"},
+    {songName: 'Warriyo - Mortals [NCS Release]', filePath:"songs/1.mp3", coverPath:"images/1.jpg"},
+    {songName: 'Cielo - Huma-Huma', filePath:"songs/2.mp3", coverPath:"images/2.jpg"},
+    {songName: 'DEAF KEV - Invincible', filePath:"songs/3.mp3", coverPath:"images/3.jpg"},
+    {songName: 'Different Heaven & EH!DE', filePath:"songs/4.mp3", coverPath:"images/4.jpg"},
+    {songName: 'Janji-Heroes-Tonight-feat', filePath:"songs/5.mp3", coverPath:"images/5.jpg"},
     {songName: 'Khaab-Akhil', filePath:"songs/6.mp3", coverPath:"images/6.jpg"},
-    {songName: 'Zindagi', filePath:"songs/7.mp3", coverPath:"images/7.jpg"},
+    {songName: 'Rabba - Salam-e-Ishq', filePath:"songs/7.mp3", coverPath:"images/7.jpg"},
     {songName: 'Aajao', filePath:"songs/8.mp3", coverPath:"images/8.jpg"},
     {songName: 'Adnan Sami', filePath:"songs/9.mp3", coverPath:"images/9.jpg"},
     {songName: 'Badal', filePath:"songs/10.mp3", coverPath:"images/10.jpg"},
